@@ -1,0 +1,67 @@
+.header {
+  height: 80px;
+  width: 100%;
+  background: #032541;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  color: white;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  color: #63d6c6;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.logo span {
+  width: 70px;
+  height: 25px;
+  background: #01b4e4;
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav button,
+.right-header button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.auth {
+  border: 1px solid #01b4e4 ;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.auth:hover {
+  background: #01b4e4;
+}
+
+

@@ -1,0 +1,49 @@
+.auth-container {
+  min-height: 100vh;
+  max-width: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:whitesmoke
+}
+.titel{
+  color: #022153;
+  
+}
+
+.auth-form {
+  width: 400px;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.password-box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.pass{
+  width: 100%;
+}
+
+.auth-form button {
+  padding: 12px;
+  border: none;
+  background: #022153;
+  color: white;
+  border-radius: 8px;
+}
+.but{
+  background-color: white;
+}
