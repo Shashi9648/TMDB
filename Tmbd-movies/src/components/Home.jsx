@@ -11,9 +11,9 @@ function Home() {
 
   const navigate = useNavigate();
 
-  const fetchMovies = async (query = "", type = "movie") => {
+  const fetchMovies = async (query = "", type = "movie" , year = "") => {
     const res = await fetch(
-      `https://www.omdbapi.com/?apikey=${API_KEY}&s=${query}&type=${type}`
+      `https://www.omdbapi.com/?apikey=${API_KEY}&s=${query}&type=${type}&year=${year}`
     );
 
     const data = await res.json();
@@ -72,7 +72,7 @@ function Home() {
               Today
             </button>
 
-            <button onClick={() => fetchMovies("batman", "movie")}>
+            <button onClick={() => fetchMovies("batman","movie","1995")}>
               This Week
             </button>
           </div>

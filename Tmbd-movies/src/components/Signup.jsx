@@ -86,7 +86,7 @@ function Register() {
       >
 
         <h2>Create Account</h2>
-
+        <label className='label' htmlFor="firstname">First Name</label>
         <input
           type='text'
           name='firstname'
@@ -94,7 +94,7 @@ function Register() {
           onChange={handleChange}
           required
         />
-
+        <label className='label' htmlFor="lastname">Last Name</label>
         <input
           type='text'
           name='lastname'
@@ -102,7 +102,7 @@ function Register() {
           onChange={handleChange}
           required
         />
-
+        <label className='label' htmlFor="email">Email</label>
         <input
           type='email'
           name='email'
@@ -110,7 +110,7 @@ function Register() {
           onChange={handleChange}
           required
         />
-
+        <label className='label' htmlFor="Password">Password</label>
         <div className='password-box'>
 
           <input className='pass'
@@ -136,7 +136,7 @@ function Register() {
           </button>
 
         </div>
-
+        <label className='label' htmlFor="phone">Phone</label>
         <input
           type='text'
           name='phone'
@@ -144,7 +144,7 @@ function Register() {
           onChange={handleChange}
           required
         />
-
+        <label className='label' htmlFor="firstname">First Name</label>
         <input
           type='text'
           name='addressLine1'

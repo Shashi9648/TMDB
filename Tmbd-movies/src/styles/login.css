@@ -28,6 +28,10 @@
   border: 1px solid #ccc;
   border-radius: 8px;
 }
+.label{
+  text-align: left;
+  color: black;
+}
 .password-box{
   width: 100%;
   display: flex;
