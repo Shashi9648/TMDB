@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const API = axios.create({
 
-  baseURL: 'https://tmdb-hn72.onrender.com'
+  baseURL: 'http://localhost:5000/api'
 })
 
 API.interceptors.request.use(

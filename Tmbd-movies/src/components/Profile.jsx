@@ -91,11 +91,6 @@ function Profile() {
               {candidate.pincode}
             </p>
 
-            <p>
-              <span>ID:</span>
-              {candidate._id}
-            </p>
-
           </div>
 
         </div>

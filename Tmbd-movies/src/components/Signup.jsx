@@ -144,7 +144,7 @@ function Register() {
           onChange={handleChange}
           required
         />
-        <label className='label' htmlFor="firstname">First Name</label>
+        <label className='label' htmlFor="AddressLine1">AddressLine1</label>
         <input
           type='text'
           name='addressLine1'
@@ -152,14 +152,14 @@ function Register() {
           onChange={handleChange}
           required
         />
-
+        <label className='label' htmlFor="AddressLine2">AddressLine1</label>
         <input
           type='text'
           name='addressLine2'
           placeholder='Address Line 2'
           onChange={handleChange}
         />
-
+        <label className='label' htmlFor="Pincode">Pincode</label>
         <input
           type='text'
           name='pincode'
@@ -167,7 +167,7 @@ function Register() {
           onChange={handleChange}
           required
         />
-
+        <label className='label' htmlFor="City">City</label>
         <input
           type='text'
           name='city'
